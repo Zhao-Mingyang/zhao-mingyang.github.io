@@ -1,1 +1,3 @@
-theme: minima
+gem "jekyll-theme-kagami"
+theme: jekyll-theme-kagami
+$ bundle
