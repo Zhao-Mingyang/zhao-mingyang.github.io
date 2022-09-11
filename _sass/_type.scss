@@ -113,3 +113,10 @@ a[href^="#fnref:"] {
   font-size: 1.25rem;
   font-weight: 300;
 }
+
+hr {
+    margin-top:7px;
+    *margin: 0;
+    border: 0;
+    height: 20px
+}
