@@ -46,15 +46,24 @@ dd {
   margin-bottom: .5rem;
 }
 
+// hr {
+//   position: relative;
+//   margin: var(--spacer-2) 0;
+// //   size: 10;
+//   border: 1;
+// //   border-top: 35px;
+// //   margin-top: -10px;
+//   border-top: 1px solid var(--border-color);
+// //   style: "FILTER: alpha(opacity=100,finishopacity=0,style=1)"
+// }
+
 hr {
-  position: relative;
-  margin: var(--spacer-2) 0;
-//   size: 10;
-  border: 1;
-//   border-top: 35px;
-//   margin-top: -10px;
-  border-top: 1px solid var(--border-color);
-//   style: "FILTER: alpha(opacity=100,finishopacity=0,style=1)"
+    margin-top:7px;
+    *margin: 0;
+    border: 0;
+    color: white;
+    background-color: black; 
+    height: 1px
 }
 
 abbr {
