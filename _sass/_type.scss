@@ -49,7 +49,7 @@ dd {
 hr {
   position: relative;
   margin: var(--spacer-2) 0;
-  border: 0;
+  border: 10;
   border-top: 1px solid var(--border-color);
 }
 
@@ -114,9 +114,3 @@ a[href^="#fnref:"] {
   font-weight: 300;
 }
 
-hr {
-    margin-top:7px;
-    *margin: 0;
-    border: 10;
-    height: 1px
-}
